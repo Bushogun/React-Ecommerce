@@ -27,7 +27,7 @@ const Card = (data) => {
                 <span className='absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-sm m-2 px-3 py-0.5'>{data.data.category}</span>
                 <img className='w-full h-full object-cover rounded-lg' src={data.data.image} alt={data.data.title}/>
                 <div className='absolute top-0 text-sm right-0 flex justify-center items-center bg-yellow-300 w-6 h-6 rounded-full m-2' 
-                     onClick={(event) => addProductsToCart(event,data.data)}>
+                     onClick={(event) => addProductsToCart(event, data.data)}>
                    <PlusIcon className='h-5 w-5 text-black'/>
                 </div>
             </figure>
